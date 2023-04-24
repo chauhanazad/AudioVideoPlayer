@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.audiovideoplayerdemo.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_musicMediaFragment"
+            app:destination="@id/musicMediaFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_videoMediaFragment"
+            app:destination="@id/videoMediaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/musicMediaFragment"
+        android:name="com.example.audiovideoplayerdemo.fragments.music.MusicMediaFragment"
+        android:label="fragment_music_media"
+        tools:layout="@layout/fragment_music_media" />
+    <fragment
+        android:id="@+id/videoMediaFragment"
+        android:name="com.example.audiovideoplayerdemo.fragments.video.VideoMediaFragment"
+        android:label="fragment_video_media"
+        tools:layout="@layout/fragment_video_media" >
+        <action
+            android:id="@+id/action_videoMediaFragment_to_videoPlayerFragment"
+            app:destination="@id/videoPlayerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/videoPlayerFragment"
+        android:name="com.example.audiovideoplayerdemo.fragments.video.VideoPlayerFragment"
+        android:label="fragment_video_player"
+        tools:layout="@layout/fragment_video_player" />
+</navigation>

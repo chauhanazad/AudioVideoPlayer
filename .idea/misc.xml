@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../Users/c100-145/.gradle/caches/transforms-3/d0ee4c3babda3e1a73f42c464f7a8106/transformed/media3-ui-1.0.0-beta03/res/drawable-anydpi-v21/exo_icon_shuffle_off.xml" value="0.12" />
+        <entry key="../../../../../layout/custom_preview.xml" value="0.15625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2296875" />
+        <entry key="app/src/main/res/layout/adapter_music.xml" value="0.24270833333333333" />
+        <entry key="app/src/main/res/layout/folder_items.xml" value="0.24375" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.24375" />
+        <entry key="app/src/main/res/layout/fragment_music_media.xml" value="0.2296875" />
+        <entry key="app/src/main/res/layout/fragment_video_media.xml" value="0.24375" />
+        <entry key="app/src/main/res/layout/fragment_video_player.xml" value="0.24375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
